@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Photographer & Polaroid Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Live in Moments</h1>
+        <nav>
+            <ul>
+                <li><a href="#work">Our Work</a></li>
+                <li><a href="#polaroids">Polaroids</a></li>
+                <li><a href="#order">Order Now</a></li>
+                <li><a href="#contact">Find Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="collage">
+        <div class="image-container">
+            <img src="https://img1.wsimg.com/isteam/ip/f0aab853-7989-4cbe-aba2-8d8716c12e30/untitled-3721_websize.jpg/:/cr=t:0.03%25,l:0%25,w:99.94%25,h:99.94%25/rs=w:1023,cg:true,m" alt="Event 1" class="collage-image">
+        </div>
+        <div class="image-container">
+            <img src="https://i.etsystatic.com/37265929/r/il/8fe9f7/4150729199/il_1588xN.4150729199_761j.jpg" alt="Event 2" class="collage-image">
+        </div>
+        <div class="image-container">
+            <img src="https://wallpapers.com/images/hd/wedding-aesthetic-reception-iie309969jsfu8zp.jpg" alt="Event 3" class="collage-image">
+        </div>
+        <div class="image-container">
+            <img src="https://i.pinimg.com/736x/27/85/7d/27857daf2356513004b526d7adaffad6.jpg" alt="Event 4" class="collage-image">
+        </div>
+        <div class="image-container">
+            <img src="https://i.pinimg.com/originals/bb/aa/e9/bbaae91c549b2d643f9aa82ade25ee93.jpg" alt="Event 5" class="collage-image">
+        </div>
+        <div class="image-container">
+            <img src="https://i.pinimg.com/originals/e1/18/65/e118653907edbbf9f2a0423ed403611c.jpg" alt="Event 6" class="collage-image">
+        </div>
+
+        <div class="message-container">
+            <h2>Your Memory, Our Polaroid.</h2>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Our Work -->
+    <section id="work">
+        <h2>Our Work</h2>
+        <p>We work for functions too!</p>
+        <div class="gallery">
+            <img src="https://lh5.googleusercontent.com/-Kxd_-C61SFw/TXzevpVKG7I/AAAAAAAAAZQ/JK5VWY6lxlw/s400/the+dessert+table+3.JPG" alt="Event 1">
+            <img src="https://images.squarespace-cdn.com/content/v1/57ebfb95ff7c509e169b18e6/1633700469194-GQWS82J3GBZB40XCGRK8/Untitled+design+(14)+copy+3.jpg" alt="Event 2">
+            <img src="https://i.pinimg.com/originals/00/20/f6/0020f64ca1908e3e3c3edcc4f95829fa.jpg" alt="Event 3">
+        </div>
+    </section>
+
+    <!-- Polaroids -->
+    <section id="polaroids">
+        <h2>Our Polaroids</h2>
+        <div class="polaroid-types">
+            <div class="polaroid">
+                <img src="https://th.bing.com/th/id/OIP.4HOOGW82WOTULyQs9Oyh0QHaHL?rs=1&pid=ImgDetMain" alt="Polaroid Classic White Frame">
+                <h3>Classic White Frame</h3>
+                <p>A timeless classic for your memories.</p>
+                <p>₹8 per snap!</p>
+            </div>
+            <div class="polaroid">
+                <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/237920123/original/bf47f8069832797099ea532ac6d24075c1661f28/hi-i-will-turn-your-digital-photos-into-polaroid.jpg" alt="Polaroid Customized Themes">
+                <h3>Customized Themes</h3>
+                <p>Add your personal touch to the frame.</p>
+                <p>₹10 per snap!</p>
+            </div>
+            <div class="polaroid">
+                <img src="https://misswood.us/cdn/shop/products/pack-60-fotos-mini-polaroid-revelado-online.jpg?v=1676304836&width=1080" alt="Polaroid Mini">
+                <h3>Mini Polaroids</h3>
+                <p>Compact and cute for keepsakes.</p>
+                <p>₹5 per snap!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order">
+        <h2>Order Your Polaroid Now</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+                <label for="polaroidType">Select Polaroid Type:</label>
+                <select id="polaroidType">
+                    <option value="classic">Classic White Frame</option>
+                    <option value="customized">Customized Themes</option>
+                    <option value="mini">Mini Polaroid</option>
+                </select>
+            
+                <label for="quantity">Enter Quantity:</label>
+                <input type="number" id="quantity" min="1" placeholder="Enter quantity">
+    
+            <label for="message">Notes:</label>
+            <textarea id="message" name="message" placeholder="Any specific instructions..."></textarea>
+            <button id="orderButton">Order Now</button>
+        </form>
+    </section>
+
+    <!-- Payment Section -->
+    <section id="payment">
+        <h2>Pay Us</h2>
+        <p>Payment options will be provided upon placing your order.</p>
+    </section>
+    <section id="mail">
+        <h2>Mail us</h2>
+        <p>Mail us your photos <a href="mailto:@vidhi.harde2007@gmail.com">here</a> </p>
+        <p>Including your name, address, contact details, order number and date of ordering!</p>
+        <p>Just wait for our response!</p>
+    </section>
+
+    <!-- Find Us -->
+    <section id="contact">
+        <h2>Find Us</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999838499742!2d2.2944813156745583!3d48.85884407928769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66efaa465302f%3A0x7a2f09b9d4c5e16c!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1697646409988!5m2!1sen!2sfr" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <h2>Contact us</h2>
+        <button id="phone"><a href="callto:7559443324">📞</a></button>
+        <button id="mail"><a href="mailto:vidhi.harde2007@gmail.com">✉️</a></button>    
+        <button id="location"><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999838499742!2d2.2944813156745583!3d48.85884407928769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66efaa465302f%3A0x7a2f09b9d4c5e16c!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1697646409988!5m2!1sen!2sfr">📍</a></button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© Live in Moments | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
